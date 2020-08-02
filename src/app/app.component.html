@@ -5,7 +5,11 @@
 
       <div class="field">
         <label>Length</label>
-        <input type="number" class="input" (input)="onChangeLength($event.target.value)" />
+        <input
+          type="number"
+          class="input"
+          (input)="onChangeLength($event.target.value)"
+        />
       </div>
 
       <div class="field">
@@ -35,11 +39,15 @@
         </div>
       </div>
 
-      <button [disabled]="shouldEnableButton()" (click)="onButtonClick()" class="button is-link is-fullwidth">
+      <button
+        [disabled]="shouldEnableButton()"
+        (click)="onButtonClick()"
+        class="button is-link is-fullwidth"
+      >
         Generate!
       </button>
 
-      <div class="box" *ngIf="password" >
+      <div class="box" *ngIf="password">
         <label>Your Password</label>
         <input class="input" [value]="password" />
       </div>

@@ -3,11 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
-
 export class AppComponent {
-
   password = '';
   passwordLength = 0;
   includeLetters = false;
@@ -36,11 +34,13 @@ export class AppComponent {
   }
 
   shouldEnableButton(): boolean {
-    return !(this.passwordLength && (this.includeLetters || this.includeNumbers || this.includeSymbols));
+    return !(
+      this.passwordLength &&
+      (this.includeLetters || this.includeNumbers || this.includeSymbols)
+    );
   }
 
   generatePassword(): string {
-
     const letters = 'abcdefghijklmnopqrstuvwxyz';
     const numbers = '1234567890';
     const symbols = '!@#$%^&*()';
@@ -67,7 +67,6 @@ export class AppComponent {
     }
 
     return generatedPassword;
-
   }
 
   toggleBool(bool: Boolean): void {
