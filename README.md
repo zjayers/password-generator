@@ -1,8 +1,7 @@
 # Password-Generator
-[![GitHub Release](https://img.shields.io/github/release/zjayers/password-generator.svg?style=flat)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/zjayers/password-generator.svg?style=flat)]()
+[![GitHub Release](https://img.shields.io/github/release/zjayers/password-generator.svg?style=flat)](https://github.com/zjayers/password-generator/releases)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/zjayers/password-generator.svg?style=flat)](https://github.com/zjayers/password-generator/pulls)
 [![Issues](https://img.shields.io/github/issues-raw/zjayers/password-generator.svg?maxAge=25000)](https://github.com/zjayers/password-generator/issues)
-[![MIT License](https://img.shields.io/apm/l/atomic-ui.svg?)](https://github.com/zjayers/password-generator/blob/master/LICENSEs)
 
 ## Description
 
